@@ -1,0 +1,35 @@
+{
+	"packages": [
+		{
+			"name": "threadpool", 
+			"__all__": ["Task", "TaskHandler",],
+			"branding": "###\n#Author: Vinod Halaharvi\n###",
+			"classes": [
+				{
+					"name": "Threadpool",
+					"attributes": ["attr1", "attr2"], 
+					"bases":["object",],
+					"getters":["taskName",], 
+					"setters":["taskName", "handler"], 
+					"main": True, 
+				}, 	
+			], 	
+		},
+
+		{
+			"name": "rtputils", 
+			"__all__": ["HQapi", ],
+			"branding": "###\n#Author: Vinod Halaharvi\n###",
+			"classes": [
+				{
+					"name": "HQapi",
+					"attributes": ["attr1", "attr2"], 
+					"bases":["object",],
+					"getters":["url",], 
+					"setters":["url", "host"], 
+					"main": True, 
+				}, 	
+			], 	
+		},
+	],
+}
